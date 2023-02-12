@@ -43,7 +43,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-bottom: 24px;
+	margin-bottom: 22px;
 	row-gap: 14px;
 }
 
@@ -67,7 +67,7 @@ body {
 	cursor: pointer;
 	height: 45px;
 	margin-bottom: 16px;
-	outline: none;
+	outline: 1px solid #000;
 	width: 100%;
 }
 
@@ -79,4 +79,32 @@ body {
 .card__submit-rate-btn:hover {
 	background-color: var(--white);
 	color: var(--orange);
+}
+
+@media (min-width: 768px) {
+	.card {
+		border-radius: 30px;
+		max-width: 395px;
+	}
+
+	.card__rate-page {
+		padding: 32px;
+	}
+
+	.card__star-icon {
+		margin-bottom: 24px;
+	}
+
+	.card__rate-question {
+		margin-bottom: 12px;
+	}
+
+	.card__rate-options-box {
+		margin-bottom: 30px;
+	}
+
+	.card__submit-rate-btn {
+		height: 40px;
+		margin-bottom: 0;
+	}
 }
