@@ -51,6 +51,7 @@ body {
 	background-color: rgba(255, 255, 255, 0.075);
 	border-radius: 50%;
 	color: var(--light-grey);
+	cursor: pointer;
 	font: 400 var(--paragraph) var(--overpass);
 	height: 45px;
 	padding: 14px;
@@ -68,4 +69,14 @@ body {
 	margin-bottom: 16px;
 	outline: none;
 	width: 100%;
+}
+
+.card__rate-option:hover {
+	background-color: var(--light-grey);
+	color: var(--white);
+}
+
+.card__submit-rate-btn:hover {
+	background-color: var(--white);
+	color: var(--orange);
 }
