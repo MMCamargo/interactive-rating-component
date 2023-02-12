@@ -14,13 +14,7 @@
 	--dark-blue: hsl(213, 19%, 18%);
 	--very-dark-blue: hsl(216, 12%, 8%);
 
-	--sm-spacing: 14px;
-	--md-spacing: 20px;
+	--paragraph: 15px;
 
-	--md-border-radius: 18px;
-
-	--paragraph-font-size: 15px;
-	--title-font-size: 24px;
-
-	--overpass-font-family: 'Overpass', sans-serif;
+	--overpass: 'Overpass', sans-serif;
 }
