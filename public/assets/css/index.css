@@ -72,7 +72,7 @@ body {
 }
 
 .card__rate-option:hover {
-	background-color: var(--light-grey);
+	background-color: var(--orange);
 	color: var(--white);
 }
 
