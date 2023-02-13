@@ -4,14 +4,14 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Table of contents
 
--   [Frontend Mentor - Interactive Rating Component Solution](#frontend-mentor---interactive-rating-component-solution)
-    -   [Table of contents](#table-of-contents)
-    -   [Overview](#overview)
-        -   [The Challenge](#the-challenge)
-        -   [Screenshots](#screenshots)
-    -   [Links](#links)
-    -   [Built With](#built-with)
-    -   [Author](#author)
+- [Frontend Mentor - Interactive Rating Component Solution](#frontend-mentor---interactive-rating-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The Challenge](#the-challenge)
+    - [Screenshots](#screenshots)
+  - [Links](#links)
+  - [Built With](#built-with)
+  - [Author](#author)
 
 ## Overview
 
@@ -36,7 +36,7 @@ Users should be able to:
 
 ## Links
 
-[Live Site URL](https://mmc-interactive-rating-component-vercel.app)
+[Live Site URL](https://mmc-interactive-rating-component.vercel.app)
 
 ## Built With
 
