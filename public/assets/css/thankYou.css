@@ -1,0 +1,45 @@
+.card__thank-you-page {
+	align-items: center;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	padding: 40px 25px;
+}
+
+.card__thank-you-img {
+	margin-bottom: 26px;
+}
+
+.card__rate-selected-text {
+	background-color: rgba(255, 255, 255, 0.05);
+	border-radius: 20px;
+	color: var(--orange);
+	font: 400 var(--paragraph) var(--overpass);
+	margin-bottom: 28px;
+	padding: 8px 16px;
+}
+
+.card__thank-you-title {
+	color: var(--white);
+	font: 700 25px var(--overpass);
+	margin-bottom: 14px;
+}
+
+.card__thank-you-text {
+	color: var(--light-grey);
+	font: 400 var(--paragraph) var(--overpass);
+	line-height: 1.5;
+	text-align: justify;
+	text-align-last: center;
+}
+
+@media (min-width: 768px) {
+	.card__thank-you-page {
+		padding: 40px 26px;
+	}
+
+	/* .card__thank-you-text p:nth-of-type(2) {
+		text-indent: 20px;
+		margin-right: 20px;
+	} */
+}

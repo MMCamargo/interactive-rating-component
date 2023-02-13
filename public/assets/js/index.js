@@ -1,4 +1,5 @@
 const ratePage = document.getElementById('ratePage');
+const thankYouPage = document.getElementById('thankYouPage');
 const rate1 = document.getElementById('rate1');
 const rate2 = document.getElementById('rate2');
 const rate3 = document.getElementById('rate3');
@@ -28,4 +29,5 @@ function resetOptions() {
 
 function submitRate() {
 	ratePage.style.display = 'none';
+	thankYouPage.style.display = 'flex';
 }
